@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <Head>
         <title>Brata&apos;s Portfolio 👋</title>
-        <link rel="icon" href={Logo} />
+        <link rel="icon" href="../public/logo/logo-brata.png" />
       </Head>
 
       {/* Navigation Bar */}
