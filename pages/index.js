@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <Head>
         <title>Brata&apos;s Portfolio 👋</title>
-        <link rel="icon" href="./logo-me.png" />
+        <link rel="icon" href="/logo/logo-me.png" />
       </Head>
 
       {/* Navigation Bar */}
@@ -39,7 +39,7 @@ export default function Home() {
         <div className="m-5 flex flex-col items-center justify-center">
           <div className="relative z-40 py-2 sm:py-20">
             <Image
-              src="./logo-brata.png"
+              src="/logo/logo-brata.png"
               alt="Brata Darmawan"
               width={200}
               height={200}
