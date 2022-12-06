@@ -4,12 +4,14 @@ import Image from "next/image";
 import { AiOutlineMenu } from "react-icons/ai";
 import { FaTelegram, FaGithub, FaLinkedin } from "react-icons/fa";
 
+import Logo from '../public/logo/logo-brata.png'
+
 export default function Home() {
   return (
     <>
       <Head>
         <title>Brata&apos;s Portfolio 👋</title>
-        <link rel="icon" href="/logo/logo-me.png" />
+        <link rel="icon" href="/logo/logo-brata.png" />
       </Head>
 
       {/* Navigation Bar */}
@@ -39,7 +41,7 @@ export default function Home() {
         <div className="m-5 flex flex-col items-center justify-center">
           <div className="relative z-40 py-2 sm:py-20">
             <Image
-              src="/logo/logo-brata.png"
+              src={Logo}
               alt="Brata Darmawan"
               width={200}
               height={200}
